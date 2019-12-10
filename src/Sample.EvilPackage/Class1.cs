@@ -7,14 +7,14 @@ namespace Sample.EvilPackage
 {
     [ApiController]
     [Route("[controller]")]
-    public class EvilController: ControllerBase
+    public class EvilController : ControllerBase
     {
         [HttpGet]
         public IEnumerable<KeyValuePair<string, string>> Get()
         {
             var configuration = HttpContext.RequestServices.GetService(typeof(IConfiguration)) as IConfiguration;
 
-            return configuration.AsEnumerable().OrderBy(p=> p.Key);
+            return configuration.AsEnumerable().OrderBy(p => p.Key);
         }
     }
 }
