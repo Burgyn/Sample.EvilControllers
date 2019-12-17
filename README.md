@@ -1,3 +1,3 @@
 # Sample.EvilControllers
 
-[See more info](https://blog.burgyn.online/2019/12/10/asp-net-core-applicationPart-evilController.html)
+[See more info](https://blog.burgyn.online/2019/12/16/asp-net-core-applicationPart-evilController.html)
