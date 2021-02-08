@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>net5</TargetFramework>
   </PropertyGroup>
-  
+
   <ItemGroup>
     <ProjectReference Include="..\Sample.EvilPackage\Sample.EvilPackage.csproj" />
   </ItemGroup>
